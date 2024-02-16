@@ -1,0 +1,175 @@
+:root
+{
+	--orange: #fae7a5;
+	--lightgray: rgb(245,245,245);
+	--neutral: #232946;
+}
+
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+
+
+#navbarNav ul li a
+{
+	font-size: 1.3rem;
+}
+
+
+
+#top > h2, #top > h3
+{
+	font-size: 60px;
+	margin-bottom: 30px;
+	
+}
+
+
+
+#tools
+{
+	background-color: #02aab0;
+    background-image: linear-gradient(135deg, #02aab0, #00cdac);
+}
+
+#tools > h2
+{
+	font-size: 60px;
+	margin-top: 50px;
+}
+
+img
+{
+	width: 6rem;
+}
+
+h5
+{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+#projects > h2
+{
+	font-size: 60px;
+	margin-top: 50px;
+}
+
+.projects-container img
+{
+	width: 80%;
+	border-radius: 15px;
+    box-shadow: 8px 8px 10px 5px rgba(100, 100, 100, 0.3);
+}
+
+.projects-container img:hover
+{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+
+
+#about
+{
+	background-color: #02aab0;
+    background-image: linear-gradient(135deg, #02aab0, #00cdac);
+}
+
+#about > h2
+{
+	font-size: 60px;
+	margin-top: 50px;
+}
+
+.introduction img
+{
+	width: 60%;
+	border-radius: 20%;
+	box-shadow: 8px 8px 10px 5px rgba(100, 100, 100, 0.3);
+}
+
+.about_wrapper
+{
+	padding: 20px;
+	text-align: justify;
+	font-size: 1.2rem;
+}
+
+.about_wrapper a
+{
+	display: inline-block;
+	width: 33.3%;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	color: black;
+}
+
+.about_wrapper a p
+{
+	padding-left: 15px;
+	display: inline-block;
+}
+
+.about_wrapper a:hover
+{
+	text-decoration: none;
+	transition: transform 0.2s ease-in;
+	transform: translateY(10px);
+}
+
+.about_wrapper i
+{
+	background-color: transparent;
+}
+
+
+
+#contact > h2
+{
+	font-size: 60px;
+	margin-top: 50px;
+}
+
+#form
+{
+	width: 50%;
+	background-color: transparent;
+}
+
+label
+{
+	font-size: 20px;
+}
+
+.form-control
+{
+	margin-bottom: 20px;
+}
+
+i
+{
+	background-color: var(--lightgray);
+}
+
+#footer
+{
+	background-color: var(--lightgray);
+	display: flex;
+	justify-content: center;
+}
+
+#footer > div
+{
+	padding: 15px 15px 15px 15px;
+	font-size: 16px;
+	font-style: italic;
+}
