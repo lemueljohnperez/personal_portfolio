@@ -153,9 +153,29 @@ label
 	margin-bottom: 20px;
 }
 
-i
+.arrow-up
 {
-	background-color: var(--lightgray);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    border-radius: 15%;
+    color: black;
+    cursor: pointer;
+    transition: background-color, 0.3s, transform 0.3s;
+}
+
+.arrow-up:hover
+{
+    background-color: transparent;
+}
+
+.arrow-up i
+{
+    padding: 0.5px 8px;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 #footer
