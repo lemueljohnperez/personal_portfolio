@@ -13,6 +13,11 @@
 	font-family: "Poppins", sans-serif;
 }
 
+body
+{
+	overflow-x: hidden;
+}
+
 
 
 #navbarNav ul li a
@@ -139,8 +144,8 @@ h5
 
 #form
 {
-	width: 50%;
-	background-color: transparent;
+	width: 100%;
+    background-color: transparent;
 }
 
 label
