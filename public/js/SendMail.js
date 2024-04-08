@@ -1,5 +1,3 @@
-import Swal from 'sweetalert2';
-
 const contactForm = document.querySelector('#form');
 let name = document.getElementById('name');
 let email = document.getElementById('email');
@@ -26,11 +24,7 @@ contactForm.addEventListener('submit', (e) => {
     xhr.onload = function() {
         console.log(xhr.responseText);
         if(xhr.responseText == 'Email sent successfully') {
-            Swal.fire({
-                icon: "success",
-                title: "Success",
-                text: "Email sent successfully"
-            })
+            alert("Email sent successfully!");
             name.value = '';
             email.value = '';
             contact.value = '';
@@ -39,11 +33,7 @@ contactForm.addEventListener('submit', (e) => {
         }
 
         else {
-            Swal.fire({
-                icon: "error",
-                title: "Error",
-                text: "Something went wrong."
-            })
+            alert("Something went wrong.");
         }
     }
     
