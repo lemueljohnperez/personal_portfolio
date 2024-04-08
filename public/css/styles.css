@@ -158,6 +158,22 @@ label
 	margin-bottom: 20px;
 }
 
+.submit
+{
+    background-color: black;
+    color: white;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit:hover
+{
+    background-color: #3f4042;
+}
+
 .arrow-up
 {
     position: fixed;
